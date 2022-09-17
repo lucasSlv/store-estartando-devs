@@ -1,7 +1,9 @@
 import { Color, ColorsProduct, Container, InfoWrapper, ProductDescription, TitleColor, ValueProduct, ImageProduct, ContainerImage, Line } from "./styles"
 import { Avaliacao } from "../Avaliacao"
+import { Contador } from "../ContadorCarrinho"
+import { BotaoCarrinho } from "../BotaoCarrinho"
 
-export const ProductDetails = ({productName, productPrice, productColors, productSizes, productDescription, productImage }) => {
+export const ProductDetails = ({productName, productPrice, productColors, productDescription, productImage }) => {
     return (
         <Container>
             <ContainerImage>
@@ -18,15 +20,6 @@ export const ProductDetails = ({productName, productPrice, productColors, produc
 
             <Avaliacao />
 
-            {/* <SizeWrapper>
-                <p>Escolha seu tamanho</p>
-                <SizeOption>
-                {productSizes?.map(size => (
-                    <div key={size}>{size}</div>
-                ))}
-                </SizeOption>
-            </SizeWrapper> */}
-
             <ValueProduct>R${productPrice}</ValueProduct>
 
             <Line></Line>
@@ -39,8 +32,10 @@ export const ProductDetails = ({productName, productPrice, productColors, produc
                 {productColors?.map(color => (
                     <Color key={color} bgColor={color}/>
                 ))}
-                <p> Contador </p>
+                <Contador />
             </ColorsProduct>
+
+            <BotaoCarrinho />
 
         </Container>
     )

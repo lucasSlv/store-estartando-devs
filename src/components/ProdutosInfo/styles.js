@@ -51,7 +51,6 @@ export const InfoWrapper = styled.div`
 `
 
 export const ProductDescription = styled.div`
-    margin-top: 10px;
     color: #939393;
     font-size: 16px;
     text-transform: capitalize;
@@ -73,6 +72,6 @@ export const ValueProduct = styled.span`
 export const Line = styled.div`
     margin-top: 25px;
     background-color: #D9D9D9;
-    height: 4px;
+    height: 3px;
     width: 300px;
 `
