@@ -28,11 +28,11 @@ function Home() {
     return (
         <div>
             <Header />
-            <FiltroProdutos />
             <S.Wrapper>
                 <img src={LupaIcon} alt="Lupa"/>
                 <S.Input placeholder="Procurando por algo em específico?" />
             </S.Wrapper>
+            <FiltroProdutos />
             {/* <ul>
                 {listProduct.map((product) => (
                     <li key={product.id}>
