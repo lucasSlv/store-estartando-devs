@@ -6,7 +6,8 @@ export const products = [
         image: "https://yata.s3-object.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
         sizes: ['PP', 'P', 'M', 'G', 'GG', 'XG'],
         colors: ['#6C63FF'],
-        description: 'descrição do produto'
+        description: 'descrição do produto',
+        category: 'Camisas'
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ export const products = [
         image: "https://yata.s3-object.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
         sizes: ['PP', 'P', 'M', 'G', 'GG', 'XG'],
         colors: ['#6C63FF'],
-        description: 'descrição do produto'
+        description: 'descrição do produto',
+        category: 'Canecas'
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ export const products = [
         image: "https://yata.s3-object.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
         sizes: ['PP', 'P', 'M', 'G', 'GG', 'XG'],
         colors: ['#6C63FF'],
-        description: 'descrição do produto'
+        description: 'descrição do produto',
+        category: 'Cadernos'
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ export const products = [
         image: "https://yata.s3-object.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
         sizes: ['PP', 'P', 'M', 'G', 'GG', 'XG'],
         colors: ['#6C63FF'],
-        description: 'descrição do produto'
+        description: 'descrição do produto',
+        category: 'Camisas'
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ export const products = [
         image: "https://yata.s3-object.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
         sizes: ['PP', 'P', 'M', 'G', 'GG', 'XG'],
         colors: ['#6C63FF'],
-        description: 'descrição do produto'
+        description: 'descrição do produto',
+        category: 'Camisas'
     },
     {
         id: 6,
@@ -51,7 +56,8 @@ export const products = [
         image: "https://yata.s3-object.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
         sizes: ['PP', 'P', 'M', 'G', 'GG', 'XG'],
         colors: ['#6C63FF'],
-        description: 'descrição do produto'
+        description: 'descrição do produto',
+        category: 'Camisas'
     },
     {
         id: 7,
@@ -60,6 +66,7 @@ export const products = [
         image: "https://yata.s3-object.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
         sizes: ['PP', 'P', 'M', 'G', 'GG', 'XG'],
         colors: ['#6C63FF'],
-        description: 'descrição do produto'
+        description: 'descrição do produto',
+        category: 'Camisas'
     }
 ]

@@ -5,6 +5,7 @@ import LupaIcon from '../../assets/header-images/lupa-icon.svg'
 // import { Link } from "react-router-dom";
 // import { getProduct } from "../../services/productService"
 import { ListaProdutos } from "../../components/ListaProdutos"
+import { FiltroProdutos } from "../../components/Filtros";
 
 function Home() {
 
@@ -27,6 +28,7 @@ function Home() {
     return (
         <div>
             <Header />
+            <FiltroProdutos />
             <S.Wrapper>
                 <img src={LupaIcon} alt="Lupa"/>
                 <S.Input placeholder="Procurando por algo em específico?" />
